@@ -79,31 +79,10 @@ body {
   width: 220px;
 }
 
-.tag-week {
-  /* width: 75%; */
-  color: #3a76cf;
-  padding-left: 20%;
-  /* position: relative; */
-  display: inline-block;
-  background: #131f2f;
-  padding: 5px 15px;
-  font-size: 12px;
-  border-radius: 5px;
-  margin: 1px;
-}
-
-.tag-week h1 {
-  display: inline-block;
-  background-color: #1e406d;
-  border: 2px solid #cacfd4;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
 .price-tag {
   /* position: absolute; */
   background-color: #cacfd4;
-  padding: 5px 2px;
+  /* padding: 5px 2px; */
   text-align: left;
   display: inline-block;
   font-size: 14px;
@@ -122,7 +101,6 @@ body {
   font-size: 14px;
   font-weight: 200;
   color: #d9d9d9;
-  border-radius: 40px;
 }
 
 .price-tag b {
@@ -134,6 +112,7 @@ body {
   width: auto;
   min-height: 100vh;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -225,7 +204,7 @@ footer {
 @media (max-width: 900px) {
   .logo {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   #menu-icon {
@@ -252,12 +231,27 @@ footer {
   .navlist a {
     display: block;
     margin: 10px 0;
+    margin-left: 0;
   }
-
+  
   .navlist.open {
     right: 0;
   }
 
   .hero {
+    grid-template-columns: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text h5, .hero-text p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* center a */
+  .hero-text a {
+    margin: 10px auto;
+    align-items: center;
   }
 }
