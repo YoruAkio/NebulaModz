@@ -6,11 +6,11 @@ menu.onclick = () => {
   navlist.classList.toggle('open')
 }
 
-// const sr = ScrollReveal({
-//   distance: '65px',
-//   duration: 2500,
-//   delay: 400,
-//   reset: true,
-// })
+const sr = ScrollReveal({
+  distance: '65px',
+  duration: 2500,
+  delay: 400,
+  reset: true,
+})
 
-// st.reveal('.hero', { delay: 400, origin: 'top'})
+st.reveal('.hero', { delay: 400, origin: 'top'})
