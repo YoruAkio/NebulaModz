@@ -209,10 +209,6 @@ footer {
     padding: 35px 5%;
     transition: 0.2s;
   }
-
-  .hero-text {
-    margin-left: 50px;
-  }
 }
 
 @media (max-width: 990px) {
