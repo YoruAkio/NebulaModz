@@ -13,4 +13,4 @@ const sr = ScrollReveal({
   reset: true,
 })
 
-st.reveal('.hero', { delay: 400, origin: 'top'})
+sr.reveal('.hero-text', { delay: 400, origin: 'top'})
