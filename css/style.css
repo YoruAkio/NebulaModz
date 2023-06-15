@@ -77,18 +77,19 @@ body {
   border-radius: 10px;
   background-color: #131f2f;
   width: 220px;
+  margin-bottom: 10px;
 }
 
 .price-tag {
   /* position: absolute; */
   background-color: #cacfd4;
-  /* padding: 5px 2px; */
+  padding: 5px 2px;
   text-align: left;
   display: inline-block;
   font-size: 14px;
   font-weight: 200;
   color: #131f2f;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-top: -70px;
   margin-left: -10px;
 }
