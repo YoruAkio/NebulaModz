@@ -1,3 +1,11 @@
 .price-tag {
     font-weight: 900;
 }
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
