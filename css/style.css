@@ -162,8 +162,11 @@ body {
 }
 
 .hero-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow-y: hidden;
-  width: 400px;
+  /* width: 400px; */
   font-size: 14px;
   font-weight: 400;
   color: #f8fbff;
@@ -257,6 +260,8 @@ footer {
 
   .price-container {
     display: inline-block;
+    justify-content: center;
+    align-items: center;
   }
 
   .price-tag {
