@@ -6,11 +6,12 @@ menu.onclick = () => {
   navlist.classList.toggle('open')
 }
 
-const sr = ScrollReveal({
-  distance: '65px',
-  duration: 2500,
-  delay: 400,
-  reset: true,
-})
+function showPopup() {
+  var popup = document.getElementById('popup')
+  popup.style.display = 'block'
+}
 
-// sr.reveal('.hero-text', { delay: 400, origin: 'top'})
+function hidePopup() {
+  var popup = document.getElementById('popup')
+  popup.style.display = 'none'
+}

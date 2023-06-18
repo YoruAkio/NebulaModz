@@ -67,17 +67,28 @@
             <span class="price-tag">Paypal | 8$ USD</span>
             <span class="price-info-week">Two Week Subscription</span>
           </div>
-          <div class="price-list" onclick="window.location.href='/subs/week2'">
-            <span class="price-tag">Gojek | IDR 80K</span>
+          <div class="price-list" onclick="showPopup()">
+            <span class="price-tag">Gopay | IDR 80K</span>
             <span class="price-info-week">Two Week Subscription</span>
           </div>
-          <div class="price-list" onclick="window.location.href='/subs/lifetime'">
+          <div class="price-list" onclick="showPopup()">
             <span class="price-tag">Dana | IDR 80K</span>
             <span class="price-info-week">Two Week Subscription</span>
           </div>
         </div>
       </div>
     </section>
+
+    <div id="popup" class="popup">
+      <button class="close-btn" onclick="hidePopup()"><i class="bx bx-x"></i></button>
+      <div class="popup-desc">
+        <h2 class="warn-title">Warning!</h2>
+        <h4 class="warn-desc">This is indonesian payment</h4>
+        <p class="weekly">Tranfer Gopay / DANA Balance with amout <b>IDR 80.000</b></p>
+        <p>Send the money to this number: <b>089503294960</b></p>
+        <p>After that, send the proof to : <a href="https://t.me/still_trash">Nebula's Telegram Owner</a></p>
+      </div>
+    </div>
     
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/js/script.js"></script>

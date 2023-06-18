@@ -7,7 +7,10 @@
     <meta name="og:image" content="https://nebula.airi.dev/assets/img/NebulaLogo.png" />
     <meta name="og:image:width" content="1416" />
     <meta name="og:image:height" content="672" />
-    <meta name="description" content="Hello, Welcome to Nebula Modz. We provide the best mod menu for Farlight. We have the best features and the best price." />
+    <meta
+      name="description"
+      content="Hello, Welcome to Nebula Modz. We provide the best mod menu for Farlight. We have the best features and the best price."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mebula Cheats" />
     <meta property="og:url" content="https://nebula.airi.dev" />
@@ -21,21 +24,12 @@
     <meta property="article:tag" content="NebulaModz" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="shortcut icon" href="https://nebula.airi.dev/assets/img/NebulaLogo.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/img/NebulaLogo.jpg"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/img/NebulaLogo.jpg"
-    />
+    <link rel="icon" type="image/png" href="assets/img/NebulaLogo.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/NebulaLogo.jpg" />
 
     <!-- Importing CDN -->
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@latest/@/css/remixicon" rel="stylesheet" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" />
@@ -45,7 +39,9 @@
   <body>
     <!-- Header -->
     <header>
-      <a href="https://t.me/nebulamodz" class="logo"><img src="/assets/img/NebulaLogo.jpg" class="logo-icon"/> Nebula Modz</a>
+      <a href="https://t.me/nebulamodz" class="logo"
+        ><img src="/assets/img/NebulaLogo.jpg" class="logo-icon" /> Nebula Modz</a
+      >
 
       <ul class="navlist">
         <li><a href="/">Home</a></li>
@@ -67,18 +63,29 @@
             <span class="price-tag">Paypal | 5$ USD</span>
             <span class="price-info-week">One Week Subscription</span>
           </div>
-          <div class="price-list" onclick="window.location.href='/subs/week2'">
-            <span class="price-tag">Gojek | IDR 50K</span>
+          <div class="price-list" onclick="showPopup()">
+            <span class="price-tag">Gopay | IDR 50K</span>
             <span class="price-info-week">One Week Subscription</span>
           </div>
-          <div class="price-list" onclick="window.location.href='/subs/lifetime'">
+          <div class="price-list" onclick="showPopup()">
             <span class="price-tag">Dana | IDR 50K</span>
             <span class="price-info-week">One Week Subscription</span>
           </div>
         </div>
       </div>
     </section>
-    
+
+    <div id="popup" class="popup">
+      <button class="close-btn" onclick="hidePopup()"><i class="bx bx-x"></i></button>
+      <div class="popup-desc">
+        <h2 class="warn-title">Warning!</h2>
+        <h4 class="warn-desc">This is indonesian payment</h4>
+        <p class="weekly">Tranfer Gopay / DANA Balance with amout <b>IDR 50.000</b></p>
+        <p>Send the money to this number: <b>089503294960</b></p>
+        <p>After that, send the proof to : <a href="https://t.me/still_trash">Nebula's Telegram Owner</a></p>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/js/script.js"></script>
     <footer>

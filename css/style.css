@@ -282,3 +282,69 @@ footer {
     text-align: center;
   }
 }
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+  background: rgba(19, 31, 47, 0.8);
+  border: 3px solid #d0e4ff;
+  border-radius: 5px;
+}
+
+.popup-desc {
+  margin: 5px;
+  color: #d0e4ff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.warn-title {
+  color: rgb(246, 168, 32);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.warn-desc {
+  color: #d0e4ff;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: #cacfd4 2px solid;
+}
+
+.popup-desc p {
+  text-align: center;
+  margin: 5px;
+}
+
+.popup-desc a {
+  color: #d0e4ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.popup-desc b,
+.popup-desc a,
+.weekly b {
+  font-weight: 900;
+  color: rgba(205, 230, 255, 0.75);
+  text-decoration: underline;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 26px;
+  background-color: transparent;
+  border: 2px solid #d0e4ff;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #9bc7ff;
+  color: #131f2f;
+}
